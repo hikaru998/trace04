@@ -56,7 +56,6 @@ a {
     font-size:100%;
     vertical-align:baseline;
     background:transparent;
-    text-decoration:none;
 }
 
 /* change colours to suit your needs */
@@ -169,13 +168,22 @@ header {
     border-radius:22px;
     text-align: center;
     padding-top:16px ;
+    transition:all;
+    text-decoration:none;
 }
+
+.header-link a:hover {
+    background-color:#d84940;
+}
+
+
 
 .header-res-link {
     height:75px;
     background-color:#DA6B64;
     text-align: center;
     display:none;
+    
 }
 
 .header-res-link img {
@@ -188,6 +196,7 @@ header {
     color:white;
     font-size: 14px;
     margin:0 10px;
+    text-decoration:none;
 }
 
 .title {
@@ -269,7 +278,11 @@ header {
     letter-spacing: 2px;
     font-weight: bold;
     margin-top: 48px;
-    
+    transition:all;
+}
+
+.recruit-link:hover {
+    background-color:#d84940;
 }
 
 .recruit-bottom {
@@ -301,22 +314,40 @@ header {
     display:inline-flex;
     justify-content: space-around;
     align-items:center;
+    text-decoration:none;
 }
 
 /*shareボタンのデザイン*/
 .twitter-link {
     width: 76px;
     background-color:#1B95E0;
+    transition:all;
+    text-decoration:none;
+}
+
+.twitter-link:hover {
+    background-color:#0C7ABF;
 }
 
 .facebook-link {
     width: 72px;
     background-color:#4267B2;
+    text-decoration:none;
+}
+
+.facebook-link:hover {
+    background-color:#365899;
 }
 
 .share-link {
     width: 44px;
     background-color:#4267B2;
+    transition:all;
+    text-decoration:none;
+}
+
+.share-link:hover {
+    background-color:#365899;
 }
 
 .twitter-icon, .facebook-icon {
@@ -380,6 +411,11 @@ header {
 
 .message-txt-middle {
     margin:38px 0 38px 0;
+}
+
+.message-txt-bottom p {
+    position:relative;
+    z-index:500;
 }
 
 .message-txt-bottom span{
@@ -1547,17 +1583,23 @@ textarea::placeholder {
     font-size: 20px;
     letter-spacing: 0.1em;
     cursor:pointer;
+    display:inline-block;
 }
+
 
 .question-icon {
     color:#4092BE;
+    font-size: 20px;
 }
 
 .answer {
     padding:20px ;
     border-bottom:1px solid #F5F5F5;
     margin-bottom: 5px;
+    display:none;
 }
+
+
 
 .answer p {
     font-weight: bold;
@@ -1596,4 +1638,29 @@ footer p {
 
 .footer-link {
     color:#337AB7;
+    transition:all;
+    text-decoration:none;
+}
+
+.footer-link:hover {
+    color:#23527c;
+    text-decoration:underline;
+}
+
+.scrollTop-btn {
+    background-color:#ECECEC;
+    width: 70px;
+    height: 70px;
+    display:inline-flex;
+    align-items:center;
+    justify-content: center;
+    position:fixed;
+    bottom:100px;
+    right:50px;
+    z-index:800;
+    cursor:pointer;
+}
+
+.scroll-icon {
+    font-size: 38px;
 }
