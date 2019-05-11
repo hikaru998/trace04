@@ -1,0 +1,839 @@
+@media screen and (max-width:1199px) {
+    /*merit*/
+    .merits-wrapper {
+        display:block;
+    }
+
+    .merit {
+        margin:auto;
+        width: 90%;
+    }
+
+    .merit-center {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .merit-txt {
+        margin:auto;
+    }
+
+    .merit-txt h3 {
+        text-align: center;
+    }
+
+    /*lesson*/
+    .lessons-list-wrapper {
+        display:block;
+    }
+
+    .lessons-list {
+        width: 600px;
+        margin:auto;
+        margin-bottom: 20px;
+    }
+
+    .lesson-bottom-wrapper {
+        margin-top: 70px;
+    }
+}
+
+@media screen and (max-width:1190px) {
+    /*step*/
+    .steps {
+        display:block;
+    }
+
+    .step {
+        margin:auto;
+    }
+
+    .step-center {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .step-container-bottom {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    /*member*/
+    .members-wrapper {
+        display:block;
+    }
+
+    .member {
+        margin:auto;
+        width: 90%;
+        max-width: 780px;
+
+    }
+
+    .member-txt {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .brpc {
+        display:none;
+    }
+
+    /*header*/
+    header {
+        height: 63px;
+    }
+
+    .header-logo {
+        display:block;
+        padding-top:8px;
+        padding-left:8px;
+    }
+
+    .header-logo p {
+        font-size: 11px;
+    }
+
+    .header-logo img {
+        height: 30px;
+    }
+
+    .header-link {
+        display:none;
+        
+    }
+
+    .header-res-link {
+        display:block;
+        height: 63px;
+    }
+
+    .header-res-link img {
+        height:35px;
+    }
+
+    .header-res-link a {
+        font-size: 12px;
+        letter-spacing: 0.1em;
+    }
+
+    /*title*/
+    .title {
+        background-image:url(images/mainsp.jpg);
+        background-size:cover;
+        background-position:center;
+        top:63px;
+    }
+
+    .title-logo {
+        padding:30px 0 45px 0;
+    }
+
+    .title-logo h1 {
+        font-size: 18px;
+    }
+
+    .title-logo p {
+        font-size: 15px;
+    }
+
+    /*recruit*/
+
+    .res-tablet {
+        display:initial;
+    }
+
+    .recruit {
+        top:63px;
+    }
+
+    .recruit-top {
+        padding-top:20px;
+    }
+
+    .recruit-top p {
+        font-weight:normal;
+    }
+
+    .recruit-top h2 {
+        font-size: 15px;
+    }
+
+    .recruit-top p {
+        font-size: 15px;
+    }
+
+    .recruit-link {
+        margin-top: 28px;
+        font-size: 20px;
+        line-height: 1.57;
+    }
+
+    .recruit-bottom {
+        margin-top: 32px;
+        padding-bottom: 26px;
+    }
+
+    .recruit-bottom h2 {
+        font-size: 15px;
+        line-height: 1.57;
+        
+    }
+
+    /*message*/
+    .message {
+        top:63px;
+
+    }
+
+    .message-title::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .message-title::after {
+        width: 30px;
+        height: 30px;
+    }    
+
+    .message-title h2 {
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .message p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .message-txt-bottom span::after {
+        width: 80px;
+    }
+
+    /*step*/
+    .step {
+        width: 90%;
+    }
+
+    .step-num h3 {
+        width: 90%;
+    }
+
+    /*lesson*/
+    .lesson-list-wrapper {
+        display:block;
+    }
+
+    /*about*/
+    .about {
+        position:relative;
+        top:63px;
+        margin-top: 0;
+        padding-top: 106px;
+    }
+
+    .about-contents-heading h2 {
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    .about-contents-heading::before {
+        width: 25px;
+        height: 25px;
+    }
+
+    .about-contents-heading::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .about-contents-explain {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-top: 60px;
+    }
+
+    .skills-heading {
+        font-size: 15px;
+        line-height: 1.5;
+        padding-top: 10px;
+        
+    }
+
+    .skill-image {
+        height:31.5px;
+    }
+
+    .skill-image img {
+        height: 100%;
+    }
+
+    .skills-wrapper {
+        width: 95%;
+        margin:auto;
+        justify-content: space-around;
+        flex-wrap:wrap;
+        padding-bottom: 20px;
+    }
+
+    .skill {
+        margin-right:0;
+        flex:none;
+    }
+
+    .skill p {
+        font-size: 10px;
+    }
+
+    /*step*/
+    .step-container {
+        position:relative;
+        top:63px;
+        background-image:url(images/aboutsecondbgsp.jpg);
+    }
+
+    .step-txt-wrapper h2 {
+        font-size: 18px;
+        line-height: 1.3;
+        padding-bottom: 22px;
+    }
+
+    .step-txt-wrapper p {
+        font-size: 13px;
+        line-height: 1.3;
+    }
+
+    .step-num {
+        padding:16px 0;
+    }
+
+    .step h3 {
+        font-size: 13px;
+        letter-spacing: 0.1em;
+    }
+
+    .step h4 {
+        font-size: 13px;
+        letter-spacing: 0.1em;
+    }
+
+    .step p {
+        font-size: 13px;
+        padding-bottom: 20px;
+        margin-top: 14px;
+        letter-spacing: 0.1em;
+    }
+
+    .step-bottom-txt {
+        padding:20px 0;
+    }
+
+    .step-bottom-txt p {
+        font-size: 13px;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+
+    .step-container-bottom {
+        margin-top: 7px;
+    }
+
+    /*learning*/
+    .learning {
+        position:relative;
+        top:63px;
+    }
+
+    .learning-heading {
+        padding-top: 50px;
+    }
+
+    .learning-heading h2 {
+        font-size: 18px;
+    }
+
+    .learning-heading p {
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+
+    .learning-contents-wrapper {
+        display:flex;
+        align-items:flex-start;
+        justify-content: space-around;
+        width:80%;
+        margin:auto;
+    }
+
+    .learning-contents-wrapper img {
+        width: 18%;
+        max-width:114px;
+        height: auto;
+        margin:0;
+        display:block;
+    }
+
+    .learning-bottom-txt {
+        font-size: 13px;
+        margin-top: 24px;
+        padding-bottom: 35px;
+    }
+
+    /*merit*/
+    .merit-container {
+        position:relative;
+        top:63px;
+    }
+
+    .merit-heading p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .merit-heading h2 {
+        font-size: 18px;
+    }
+
+    .merit-heading::before {
+        width: 25px;
+        height: 25px;
+    }
+
+    .merit-heading::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .merit-txt h3 {
+        font-size: 16px;
+        
+    }
+
+    .merit-txt p {
+        font-size: 12px;
+    }
+
+    .merit-txt-wrapper {
+        padding-bottom: 17px;
+    }
+
+    .merit-txt-wrapper h2 {
+        font-size: 18px;
+        padding-top: 17px;
+    }
+
+    .merit-txt-wrapper h3 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .merit-txt-wrapper p {
+        font-size: 10px;
+        width: 97%;
+        margin:auto;
+        letter-spacing: 0;
+    }
+
+    .pc-p {
+        display:none;
+    }
+
+    .merit-bottom-txt {
+        width: 97%;
+        padding:17px 0 32px 0;
+    }
+
+    .merit-bottom-txt p {
+        font-size: 12px;
+        letter-spacing: 0;
+    }
+
+    /*member*/
+    .member-container {
+        background-image:url(images/teacherbgsp.jpg);
+        position:relative;
+        top:63px;
+        
+    }
+
+    .members-wrapper {
+        width: 100%;
+    }
+
+    .member-heading h2 {
+        font-size: 18px;
+    }
+
+    .member-heading p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .member {
+        width: 90%;
+    }
+
+    .member img {
+        height:120px;
+    }
+
+    .member-txt h3 {
+        font-size: 14px;
+    }
+
+    .member-txt h4 {
+        font-size: 14px;
+    }
+
+    .member-txt p {
+        width: 98%;
+        font-size: 12px;
+        padding-bottom: 22px;
+    }
+
+    .member4 {
+        padding-bottom: 20px;
+    }
+
+    /*hearing*/
+    .hearing-container {
+        position:relative;
+        top:63px;
+    }
+
+    .hearing-heading-txt::before {
+        width: 25px;
+        height: 25px;
+    }
+
+    .hearing-heading-txt::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    .hearing-heading h2 {
+        font-size: 16px;
+        line-height: 3;
+    }
+
+    .hearing-heading p {
+        width: 62px;
+        height: 62px;
+    }
+
+    .hearing-opinion-heading h2 {
+        font-size: 18px;
+        margin-bottom: 17px;
+    }
+
+    .hearing-opinion-heading h3 {
+        font-size: 12px;
+    }
+
+    .hearing-opinion-heading p {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+
+    .opinion {
+        width: 97%;
+    }
+
+    .opinion img {
+        width: 30%;
+    }
+
+    .opinion-comment {
+        margin-top: 0;
+    }
+
+    /*lesson*/
+    .lesson-container {
+        background-image:url(images/classbgsp.jpg);
+        position:relative;
+        top:63px;
+    }
+
+    .lesson-heading {
+        padding-top: 50px;
+        margin-bottom: 35px;
+    }
+
+    .lesson-heading h2 {
+        font-size: 18px;
+    }
+
+    .lesson-heading p {
+        font-size: 12px;
+    }
+
+    .lessons-list-wrapper {
+        width: 100%;
+    }
+
+    .lessons-list {
+        width: 97%;
+    }
+
+    .lessons h3 {
+        font-size: 15px;
+    }
+
+    .lessons li {
+        font-size: 12px;
+    }
+
+    .lesson-bottom-wrapper {
+        margin-top: 45px;
+    }
+
+    .lesson-bottom-txt-wrapper {
+        text-align: center;
+        width: 90%;
+        padding:20px;
+    }
+
+    .lesson-bottom-txt-wrapper p {
+        font-size: 16px;
+    }
+
+    /*flow*/
+    .flow-container {
+        position:relative;
+        top:63px;
+    }
+
+    .flow-heading {
+        padding-top: 50px;
+    }
+
+    .flow-heading h2 {
+        font-size: 18px;
+        color:#333;
+    }
+
+    .flow-image-wrapper {
+        display:none;
+    }
+
+    .flow-contents-wrapper {
+        display:none;
+    }
+
+    /*why*/
+    .why-container {
+        background-image:url(images/bangkokbgsp.jpg);
+        background-position:center;
+        position:relative;
+        top:63px;
+    }
+
+    .why-txt-wrapper {
+        padding-top: 50px;
+        padding-bottom: 35px;
+        width: 90%;
+        margin:auto;
+    }
+
+    .why-txt-wrapper h2 {
+        text-align: center;
+    }
+
+    .why-txt-wrapper p {
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+
+    .why-txt-wrapper ul {
+        margin-top: 26px;
+    }
+
+    .why-txt-wrapper li {
+        font-size: 11px;
+        margin-bottom: 13px;
+    }
+
+    .why-txt-wrapper h3 {
+        font-size: 15px;
+    }
+
+    /*benefit*/
+    .benefit-container {
+        padding-top: 35px;
+        position:relative;
+        top:63px;
+    }
+
+    .benefit-contents-wrapper {
+        display:block;
+        padding:40px 0 20px 0;
+    }
+
+    .benefit-heading h2 {
+        font-size: 18px;
+        letter-spacing: 0.1em;
+        margin-bottom: 34px;
+    }
+
+    .benefit-heading p {
+        font-size: 13px;
+        letter-spacing: 0.1em;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .benefit-txt {
+        width: 267px;
+        bottom:-26px;
+    }
+
+    .benefit-txt h2 {
+        font-size: 18px;
+    }
+
+    .benefit-content {
+        display:none;
+    }
+
+    .benefit-res-content {
+        display:flex;
+    }
+
+    /*notVolunteer*/
+    .notVolunteer-container {
+        background-image:url(images/specialdetailsp.jpg);
+        position:relative;
+        top:63px;
+    }
+
+    .notVolunteer-top-txt {
+        padding-top: 50px;
+    }
+
+    .notVolunteer-top-txt h2 {
+        font-size: 18px;
+        line-height: 1.3;
+    }
+
+    .notVolunteer-txt-wrapper p {
+        font-size: 13px;
+    }
+
+    .notVolunteer-txt-wrapper h2 {
+        font-size: 17px;
+        line-height: 2;
+    }
+
+    .notVolunteer-bottom-kakko {
+        width: 90%;
+    }
+
+    .notVolunteer-bottom-kakko::before {
+        width: 25px;
+        height: 25px;
+    }
+
+    .notVolunteer-bottom-kakko::after {
+        width: 25px;
+        height: 25px;
+    }
+
+    /*founder*/
+    .founder-container {
+        padding-bottom: 40px;
+        position:relative;
+        top:63px;
+    }
+
+    .founder-heading {
+        margin-bottom: 15px;
+    }
+
+    .founder-heading h2 {
+        font-size: 18px;
+    }
+
+    .founder-heading p {
+        font-size: 16px;
+        line-height: 1.3;
+    }
+
+    .founder-content-wrapper {
+        display:block;
+    }
+
+    .founder-image {
+        max-width:initial;
+        width: 100%;
+    }
+
+    .founder-txt {
+        max-width:initial;
+    }
+
+    /*contact-form*/
+    .contact-container {
+        padding-bottom: 50px;
+        position:relative;
+        top:63px;
+    }
+
+    .contact-heading h2 {
+        font-size: 19px;
+    }
+
+    .contact-heading p {
+        font-size: 13px;
+    }
+
+    .contact-form {
+        width: 95%;
+    }
+
+    /*QandA*/
+    .QandA-container {
+        padding:55px 0 40px 0;
+        position:relative;
+        top:63px;
+    }
+
+    .QandA-heading h2 {
+        font-size: 19px;
+    }
+
+    .QandA-wrapper {
+        width: 95%;
+    }
+
+    .question {
+        padding:10px;
+    }
+
+    .question-icon {
+        font-size: 16px;
+    }
+
+    .question h3 {
+        font-size: 16px;
+    }
+    /*footer*/
+    footer {
+        padding:20px 0 4px 0;
+        position:relative;
+        top:63px;
+    }
+
+    /*scrollbtn*/
+    .scrollTop-btn {
+        width: 50px;
+        height: 50px;
+        bottom:25px;
+        right:10px;
+    }
+
+    .scroll-icon {
+        font-size: 23px;
+    }
+}
